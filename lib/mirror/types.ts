@@ -94,26 +94,41 @@ export interface MirrorCapture {
 export interface Character {
   key: string;
   title: string;
+  title_en?: string;
   subtitle: string;
+  subtitle_en?: string;
   shortText: string;
+  shortText_en?: string;
   observedText: string;
+  observedText_en?: string;
   gift: string;
+  gift_en?: string;
   shadow: string;
+  shadow_en?: string;
   innerNeed: string;
+  innerNeed_en?: string;
   eqydoPath: string;
+  eqydoPath_en?: string;
   faceSignals: string[];
   recommendedPractices: string[];
   introspectionQuestion: string;
+  introspectionQuestion_en?: string;
   transformationDirection: string;
+  transformationDirection_en?: string;
 }
 
 export interface Direction {
   key: string;
   title: string;
+  title_en?: string;
   shortText: string;
+  shortText_en?: string;
   recommendedPractice: string;
+  recommendedPractice_en?: string;
   practiceText: string;
+  practiceText_en?: string;
   introspectionQuestion: string;
+  introspectionQuestion_en?: string;
 }
 
 export interface AlignedRecommendation {
